@@ -1,13 +1,56 @@
-/* header {
-  background-color: blue;
-  height: 20px;
-  filter: opacity(10%)
-} 
-
+/* cores
 laranja: #f6904c
-amarelo: #f6bb4c
-*/
+amarelo: #f6bb4c */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: #f6904c;
+  height: 80px;
+  padding: 0 50px;
+}
+
+.logo-header {
+  height: 4rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  width: 90%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+main {
+  height: 100vh;
+}
+
+footer {
+  background-color: #f6904c;
+  height: 80px;
+  padding: 0 50px;
+}
 
 .redes-sociais {
-  color: #f6904c;
+  color: white;
 }

@@ -11,3 +11,29 @@ amarelo: #f6bb4c
 .redes-sociais {
   color: #f6904c;
 }
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+.principal{
+  height: 600px;
+  background-color: #f6904c;
+  opacity: 80%;
+}
+
+.cartao{
+  height: 600px;
+  background-color: #f6904c;
+  opacity: 60%;
+}
+.seguros{
+  height: 600px;
+  background-color: #f6904c;
+  opacity: 30%;
+}
+.emprestimos{
+  height: 600px;
+  background-color: #f6904c;
+  opacity: 90%;
+}

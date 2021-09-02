@@ -1,5 +1,5 @@
 /* cores
-laranja: #ff914d #ff914d
+laranja: #ff914d
 amarelo: #f6bb4c */
 
 * {
@@ -74,11 +74,13 @@ li {
 }
 
 main {
+  /* coloquei essa altura só para poder enxergar a diferença do header e do footer,
+  ela pode ser apagada */
   height: 100vh;
 }
 
 footer {
-  /* width: 100%; */
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -90,7 +92,6 @@ footer {
   font-weight: 900;
   font-size: 0.8rem;
   text-transform: lowercase;
-
 }
 
 .redes-sociais {
@@ -99,7 +100,6 @@ footer {
   align-items: center;
   justify-content: center;
   height: 90%;
-  /* width: 100%; */
 }
 
 .redes-sociais-icones {

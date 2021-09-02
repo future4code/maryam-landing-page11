@@ -8,11 +8,16 @@ amarelo: #f6bb4c */
   box-sizing: border-box;
 }
 
-a {
+.menu-principal a {
   text-decoration: none;
+  color: white;
 }
 
-header {
+.menu-principal a:hover {
+  font-weight: bolder;
+}
+
+header, footer {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -21,6 +26,10 @@ header {
   background-color: #f6904c;
   height: 80px;
   padding: 0 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  text-transform: lowercase;
+
 }
 
 .logo-header {
@@ -31,24 +40,27 @@ li {
   list-style-type: none;
 }
 
-nav {
+.menu-principal {
   width: 90%;
 }
 
-nav ul {
+.menu-principal ul {
   display: flex;
   justify-content: space-around;
 }
 
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  height: 5vh;
+  background-color: #f6bb4c;
+  border-radius: 1em;
+}
 
 main {
   height: 100vh;
-}
-
-footer {
-  background-color: #f6904c;
-  height: 80px;
-  padding: 0 50px;
 }
 
 .redes-sociais {

@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -20,7 +21,6 @@ header {
   background-color: #ff914d;
   height: 80px;
   padding: 0 50px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 0.8rem;
   text-transform: lowercase;

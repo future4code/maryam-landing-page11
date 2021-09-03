@@ -94,6 +94,11 @@ footer {
   text-transform: lowercase;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .redes-sociais {
   display: flex;
   flex-direction: column;
@@ -123,4 +128,37 @@ footer {
 
 .contato p {
   margin: 0 20px;
+  color: #f6904c;
+}
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+.principal {
+  height: 600px;
+  background-color: #f6904c;
+  opacity: 80%;
+}
+
+.cartao{
+  height: 600px;
+  background-color: #f6904c;
+  opacity: 60%;
+}
+
+.texto {
+  margin: 30px;
+  width: 
+}
+
+.seguros{
+  height: 600px;
+  background-color: #f6904c;
+  opacity: 30%;
+}
+.emprestimos{
+  height: 600px;
+  background-color: #f6904c;
+  opacity: 90%;
 }

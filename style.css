@@ -9,6 +9,11 @@
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+.falso-header {
+  height: 80px;
 }
 
 header {
@@ -83,6 +88,38 @@ section {
 
 .seguros {
   background-color:white; 
+}
+
+.emprestimos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.emprestimos-texto {
+  width: 45%;
+  margin: 2rem;
+  color:white;
+}
+
+.emprestimos-texto p {
+  font-size: 1rem;
+  width: 70%;
+  padding-top: 1rem;
+}
+
+.emprestimos-texto a {
+  color: #ff624d
+}
+
+.emprestimos-img {
+  width:40%;
+}
+
+.emprestimos-img img {
+  width: 100%;
 }
 
 footer {

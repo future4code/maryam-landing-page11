@@ -1,26 +1,59 @@
-/* -------------------------- GERAL -------------------------- */
+/* ------------- GERAL ------------- */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: black;
 }
 
-section {
-  height: 100vh;
+a:hover {
+  text-decoration: underline;
 }
 
 li {
   list-style-type: none;
 }
 
-/* -------------------------- HEADER -------------------------- */
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  padding: 2rem;
+}
+
+.container-texto {
+  width: 50%;
+  max-height: 90vh;
+}
+
+.texto-titulo {
+  font-size: 4rem;
+}
+
+.texto-corpo {
+  font-size: 2rem;
+}
+
+.texto-box {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ce5b14
+}
+
+.texto-clique, .texto-clique a {
+  font-weight: 900;
+  color: black;
+}
+
+/* ------------- HEADER ------------- */
 
 .falso-header {
   height: 80px;
@@ -80,20 +113,15 @@ header {
   font-weight: bolder;
 }
 
-/* -------------------------- SECTION PRINCIPAL (CADASTRO) -------------------------- */
-
-.img-background {
-  width: 100%;
-}
+/* ------------- SECTION PRINCIPAL (CADASTRO) ------------- */
 
 .principal {
   background-color: #f6bb4c;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 80vh;
 }
+
+/* .img-background {
+  width: 100%;
+} */
 
 .card-cadastro{
   display: flex;
@@ -125,6 +153,7 @@ header {
   width: 15vw;
   height: 7vh;
   background-color: beige;
+  color: gray;
   opacity: 70%;
   border-radius: 4em;
 }
@@ -148,81 +177,24 @@ header {
   font-weight: bolder;
 }
 
-/* -------------------------- SECTION CARTÃO -------------------------- */
+/* ------------- SECTION CARTÃO ------------- */
 
-.campo-cartao{
+.cartao{
   background-color: #FFB180;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 100vh;
-}
-
-.texto-cartao{
-  text-decoration: none;
-  padding: 80px ;
-  font-size: 36px;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  width: 60%;
-  }
-
-.nome-cartao{
-  font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 2.5rem;
 }
 
 .nome-cartao:hover {
   text-decoration: underline;
 }
 
-.texto-cartao a {
-  font-weight: 900;
-  color: white;
-}
-
-.texto-cartao p{
-  padding-top: 10px;
-  padding-inline-end: 10%;
-  padding-bottom: 0px;
-}
-
 .imagem-cartao {
   width: 60%;
 }
 
-/* -------------------------- SECTION EMPRÉSTIMOS -------------------------- */
+/* ------------- SECTION EMPRÉSTIMOS ------------- */
 
 .emprestimos {
   background-color: #f6bb4c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 900;
-  font-size: 2rem;
-  padding: 2rem;
-}
-.emprestimos-texto {
-  width: 45%;
-  margin: 2rem;
-  color:white;
-}
-
-.emprestimos-texto p {
-  font-size: 1rem;
-  width: 70%;
-  padding-top: 1rem;
-}
-
-.emprestimos-texto a {
-  color: #ff624d
-}
-
-.emprestimos-texto a:hover {
-  text-decoration: underline;
 }
 
 .emprestimos-img {
@@ -233,26 +205,15 @@ header {
   width: 100%;
 }
 
-/* -------------------------- SECTION SEGUROS -------------------------- */
+/* ------------- SECTION SEGUROS ------------- */
 
 .seguros {
-  background-color:white; 
-}
-
-.seguros {
-  color: #ff624d;
-  display: flex;
-  padding: 3.5rem;
+  background-color:white;
+  background-color:lightgray;
 }
 
 .seguros a {
   color: #ff624d;
-}
-
-.texto-seguros {
-  width: 40%;
-  font-size: 2.7rem;
-  font-weight: 900;
 }
 
 .container-card-seguros {
@@ -281,11 +242,6 @@ header {
   padding-top: 10px;
 }
 
-.saiba-mais{
-  font-size: 24px;
-  padding-top: 10px;
-}
-
 .saiba-mais a {
   color:black;
 }
@@ -294,7 +250,7 @@ header {
   font-size: 4rem;
 }
 
-/* -------------------------- FOOTER -------------------------- */
+/* ------------- FOOTER ------------- */
 
 footer {
   /* width: 100%; */

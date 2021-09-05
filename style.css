@@ -176,8 +176,10 @@ footer {
   padding: 1rem;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
-  height: 80vh;
+  min-width: 750px;
+  height: 90%;
 }
 
 .card-cadastro{
@@ -187,13 +189,10 @@ footer {
   height: 300px;
   width: 300px;
   background-color:rgb(236, 210, 193);
-  margin-top: 100px;
-  margin-right: 5vw;
   justify-content: space-around;
   align-items: center;
   text-align: left;
   border-radius: 30px;
-  /* box-shadow: black 2px 2px 5px; */
   color: #cf6c2f;
   
 }
@@ -207,8 +206,8 @@ footer {
 
 .campo-cpf{
   display: flex;
-  width: 15vw;
-  height: 7vh;
+  width: 90%;
+  height: 40px;
   background-color: beige;
   opacity: 70%;
   border-radius: 4em;

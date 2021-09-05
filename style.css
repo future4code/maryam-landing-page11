@@ -1,4 +1,4 @@
-/* ------------- GERAL ------------- */
+/* GERAL */
 
 * {
   margin: 0;
@@ -61,7 +61,7 @@ section {
   color: #ce5b14;
 }
 
-/* ------------- HEADER ------------- */
+/* HEADER */
 
 .falso-header {
   height: 80px;
@@ -121,7 +121,60 @@ header {
   font-weight: bolder;
 }
 
-/* ------------- SECTION PRINCIPAL (CADASTRO) ------------- */
+/* FOOTER */
+
+footer {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: #ff914d;
+  height: 120px;
+  padding: 0 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 0.8rem;
+  text-transform: lowercase;
+
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  /* width: 100%; */
+}
+
+.redes-sociais-icones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 60%;
+  color: white;
+}
+
+.img-redes-sociais {
+	display: inline;
+	color: white;
+	font-size: 30px;
+}
+
+.contato {
+  display: flex;
+}
+
+.contato p {
+  margin: 0 20px;
+}
+
+
+/* ----------------- INDEX.HTML ----------------- */
+
+/* SECTION PRINCIPAL (CADASTRO) */
 
 .principal {
   background-color: #f6bb4c;
@@ -178,7 +231,7 @@ header {
   font-weight: bolder;
 }
 
-/* ------------- SECTION CARTÃO ------------- */
+/* SECTION CARTÃO */
 
 .cartao{
   background-color: #FFB180;
@@ -196,7 +249,7 @@ header {
   width: 100%;
 }
 
-/* ------------- SECTION EMPRÉSTIMOS ------------- */
+/* SECTION EMPRÉSTIMOS */
 
 .emprestimos {
   background-color: #f6bb4c;
@@ -210,7 +263,7 @@ header {
   width: 100%;
 }
 
-/* ------------- SECTION SEGUROS ------------- */
+/* SECTION SEGUROS */
 
 .seguros {
   justify-content: space-between;
@@ -292,57 +345,30 @@ header {
   font-size: 3rem;
 }
 
-/* ------------- FOOTER ------------- */
+/* ----------------- CARTAO.HTML ----------------- */
 
-footer {
-  /* width: 100%; */
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: white;
-  background-color: #ff914d;
-  height: 120px;
-  padding: 0 50px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  font-size: 0.8rem;
-  text-transform: lowercase;
-
+.vantagens {
+  background-color: #fdc530;
+  padding: 0;
 }
 
-.redes-sociais {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 90%;
-  /* width: 100%; */
+.vantagens-imagem-container {
+  width: 40%;
 }
 
-.redes-sociais-icones {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50%;
-  width: 60%;
-  color: white;
+.img-cartao-cliente {
+  height: 100vh;
 }
 
-.img-redes-sociais {
-	display: inline;
-	color: white;
-	font-size: 30px;
+.vantages-texto {
+  width: 50%;
 }
 
-.contato {
-  display: flex;
+.texto-vantagens {
+  font-size: 1.5rem;
 }
 
-.contato p {
-  margin: 0 20px;
-}
-
-/* RESPONSIVIDADE */
+/* ----------------- RESPONSIVIDADE ----------------- */
 
 /* celulares */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {

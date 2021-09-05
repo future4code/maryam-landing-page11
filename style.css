@@ -134,13 +134,10 @@ header {
   height: 300px;
   width: 300px;
   background-color:rgb(236, 210, 193);
-  margin-top: 100px;
-  margin-right: 5vw;
   justify-content: space-around;
   align-items: center;
   text-align: left;
   border-radius: 30px;
-  /* box-shadow: black 2px 2px 5px; */
   color: #cf6c2f;
   
 }
@@ -149,8 +146,8 @@ header {
   display: flex;
   text-align: center;
   background-color: #f2ead4;
-  width: 15vw;
-  height: 7vh;
+  width: 200px;
+  height: 40px;
   border-radius: 3.5vh;
   border: none;
 }
@@ -164,8 +161,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 10vw;
-  height: 7vh;
+  width: 70px;
+  height: 40px;
   background-color: #f6bb4c;
   border-radius: 4em;
   color: #ce5b14;

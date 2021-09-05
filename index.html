@@ -22,7 +22,7 @@
 <body>
   <header>
     <a href="index.html"><img src="./images/logo.png" alt="Logo F4Bank" class="logo-header"></a>
-    <nav class="menu-principal">
+    <nav class="menu">
       <ul>
         <li><a href="#">Página inicial</li></a>
         <li><a href="#">Pessoa física</li></a>
@@ -36,53 +36,49 @@
     </div>
   </header>
   <main>
-    <section class="falso-header">
-    </section>
+    <div class="falso-header"></div>
+
     <section class="principal">
-      <div class="texto-cartao">
-        <!-- <img src="./images/background.jpg" alt="" class="img-background"> -->
-        <a class="nome-cartao" href="#">
-          <h1>F4Bank</h1>
+      <div class="container-texto">
+        <a href="#">
+          <h2 class="texto-titulo">F4Bank</h2>
         </a>
-        <p><b>O banco para quem se reinventa sempre aliando a modernidade à segurança que só a nossa tecnologia pode
-            oferecer!</b></p>
-        <div class="saiba-mais">
-          <a href="#"><b>Saiba mais →</b></a>
-        </div>
+        <p class="texto-corpo">O banco para quem se reinventa sempre aliando a modernidade à segurança que só a nossa
+          tecnologia pode oferecer!</p>
+        <p class="texto-clique"><a href="#">Saiba mais →</a></p>
       </div>
       <div class="card-cadastro">
-        <h2>Venha abrir sua conta e receba já seu cartão de crédito do F4Bank!</h2>
+        <h2 class="texto-box">Venha abrir sua conta e receba já seu cartão de crédito do F4Bank!</h2>
         <div class="campo-cpf">
-          <input class="input-cpf" type="tel" value="Insira seu CPF">
+          <input class="input-cpf" type="tel" placeholder="Insira seu CPF">
         </div>
-        <div class="continuar">
-          Continuar
-        </div>
+        Continuar
+      </div>
       </div>
     </section>
 
-    <!-- Seção cartão de crédito. Colocar imagem do cartão. Falar das vantagens. -->
-
-    <section class="campo-cartao">
-      <div class="texto-cartao">
-        <a class="nome-cartao" href="#">
-          <h2>F4Bank Card</h2>
+    <section class="cartao">
+      <div class="container-texto">
+        <a href="#">
+          <h2 class="texto-titulo">F4Bank Card</h2>
         </a>
-        <p><b>O cartão para quem quer os benefícios da modernidade e a segurança de um banco tradicional.</b></p>
-        <div class="saiba-mais">
-          <a href="#"><b>Saiba mais →</b></a>
-        </div>
+        <p class="texto-corpo">O cartão para quem quer os benefícios da modernidade e a segurança de um banco
+          tradicional.</p>
+        <p class="texto-clique"><a href="#">Saiba mais →</a></p>
       </div>
       <div class="imagem-cartao">
         <a href="index.html"><img src="images/cartao-orange.png" alt="Cartao F4Bank" class="logo-cartao"></a>
       </div>
     </section>
 
-    <!-- Seção empréstimos. Falar das taxas de juros atrativas. -->
     <section class="emprestimos">
-      <div class="emprestimos-texto">
-        <h2>Imprevistos acontecem. E quando eles acontecem, a gente está aqui para te ajudar!</h2>
-        <p><a href="#">Clique aqui para ver nossas opções de empréstimo com as melhores taxas de juros do mercado →</a>
+      <div class="container-texto">
+        <a href="#">
+          <h2 class="texto-titulo">Empréstimos</h2>
+        </a>
+        <p class="texto-corpo">Imprevistos acontecem. E quando eles acontecem, a gente está aqui para te ajudar! Nossos
+          empréstimos têm as melhores taxas de juros do mercado</p>
+        <p class="texto-clique"><a href="#">Clique aqui para ver suas opções →</a>
         </p>
       </div>
       <div class="emprestimos-img">
@@ -90,42 +86,37 @@
       </div>
     </section>
 
-    <!-- Seção sobre seguros -->
     <section class="seguros">
-      <div class="texto-seguros">
-        Conte com nossa cobertura e nosso atendimento para curtir a vida sem preocupações!
+      <div class="container-img">
+        <img src="./images/seguros.jpg" class="img-seguros">
       </div>
-      <div class="container-card-seguros">
+      <div class="container-texto container-texto-seguros">
+        <p class="texto-corpo texto-seguros">Conte com nossa cobertura e nosso atendimento para curtir a vida sem
+          preocupações!</p>
         <div class="card-seguros seguro-auto">
           <i class="fas fa-car-alt seguros-icones"></i>
           <h4>Seguro Auto</h4>
           <p>Cobrimos o seu veículo para você dirigir tranquilamente!</p>
-          <p><a href="#">Saiba mais <i class="fas fa-info-circle"></i></a></p>
+          <p class="texto-clique"><a href="#">Saiba mais →</a></p>
         </div>
-
         <div class="card-seguros seguro-vida">
           <i class="fas fa-users seguros-icones"></i>
           <h4>Seguros de Vida</h4>
           <p>Proteja quem você ama! Nós temos os melhores preços e condições.</p>
-          <p><a href="#">Saiba mais <i class="fas fa-info-circle"></i></a></p>
+          <p class="texto-clique"><a href="#">Saiba mais →</a></p>
         </div>
-
-        <div class="card-seguros seguro-residencia">
+        <div class="card-seguros seguro-residencial">
           <i class="fas fa-home seguros-icones"></i>
           <h4>Seguro Residencial</h4>
           <p>Tudo o que você precisa para deixar sua casa e sua família protegida.</p>
-          <p><a href="#">Saiba mais <i class="fas 
-          fa-info-circle"></i></a></p>
+          <p class="texto-clique"><a href="#">Saiba mais →</a></p>
         </div>
-
-        <div class="card-seguros seguro-empresas">
+        <div class="card-seguros seguro-empresa">
           <i class="fas fa-building seguros-icones"></i>
           <h4>Seguro Empresa</h4>
-          <p>Sua empresa protegida com as coberturas certas para seu tipo de negócio.</p>
-          <p><a href="#">Saiba mais <i class="fas 
-          fa-info-circle"></i></a></p>
+          <p>As coberturas certas para seu tipo de negócio.</p>
+          <p class="texto-clique"><a href="#">Saiba mais →</a></p>
         </div>
-      </div>
     </section>
 
   </main>
@@ -139,9 +130,9 @@
       </div>
     </div>
     <div class="contato">
-      <p><i class="fas fa-phone-alt"></i> Telefone (xx) xxxxx-xxxx</p>
-      <p><i class="fab fa-whatsapp"></i> Whatsapp (xx) xxxxx-xxxx</p>
-      <p>Email: atendimento@f4bank.com</p>
+      <p><i class="fas fa-phone-alt"></i> Telefone (31) 9986-9517</p>
+      <p><i class="fab fa-whatsapp"></i> Whatsapp (31) 99893-2529</p>
+      <p><i class="fas fa-envelope"></i> Email: atendimento@f4bank.com</p>
     </div>
   </footer>
 </body>

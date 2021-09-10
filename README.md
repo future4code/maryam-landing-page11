@@ -1,4 +1,4 @@
-# Landing Page F4Bank
+# landing Page F4Bank
 
 ## Equipe
 * Alexandre Rafael
